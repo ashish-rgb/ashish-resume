@@ -1,0 +1,188 @@
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.small-heading{
+  color: #FFC0D3;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.title-para{
+  color: #000;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 10%;
+}
+
+/* Sections */
+
+.colored-section {
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.skillimg{
+ width: 30%;
+ padding-bottom: 10px;
+}
+
+/* Title Section */
+
+#title {
+  background-color: #F39189;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+
+
+/* Profile Image */
+
+.profile-image {
+  width: 80%;
+  border-radius: 100%;
+}
+
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+
+/* Testimonial Section */
+
+#experience {
+  background-color: #E9A6A6;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 7%;
+  margin: 20px;
+}
+
+.testimonial-company-image{
+  width: 20%;
+  margin: 20px;
+}
+
+.testimonial-para{
+  color: #FFF1CE;
+  font-weight: bold;
+}
+
+.experience1{
+  color: black;
+}
+  
+
+/* projects */
+#projects{
+  background-color: #F39189;
+}
+
+.project-head{
+  color: #000;
+}
+
+.project-title{
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+.project-para{
+  color:#046582
+}
+
+
+
+/* Footer Section */
+.footer-section {
+  background-color: black;
+}
+.footer-fluid{
+  padding: 2% 0%;
+}
+
+.social-icon {
+  margin: 20px 10px;
+  color: white;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+}
