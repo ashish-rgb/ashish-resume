@@ -28,6 +28,10 @@ p {
   color: #000;
 }
 
+.name-logo{
+    width: 150px;
+    padding: 0;
+  }
 /* Containers */
 
 .container-fluid{
@@ -225,6 +229,8 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
   .navbar-toggler{
     border: none;
   }
+
+  
 
   .big-heading {
   font-size: 2rem;
